@@ -1,9 +1,0 @@
-@APISCENARIO
-Feature: To test a get api
-
-
-@APISCENARIO
-Scenario: Get api call
-Given User open the api
-When user valided status as 200
-Then user validated reponse contains "email"

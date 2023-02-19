@@ -1,8 +1,0 @@
-Feature: To test a get api
-
-
-Scenario: Get api call
-Given User open the api
-When User hits the get user api
-Then user valided status as 200
-And user validated the response as something in result

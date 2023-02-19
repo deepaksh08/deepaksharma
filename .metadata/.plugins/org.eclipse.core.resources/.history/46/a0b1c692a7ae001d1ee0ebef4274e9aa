@@ -1,7 +1,0 @@
-@APISCENARIO
-Feature: To test a get api
-
-
-@APISCENARIO
-Scenario: Get api call
-Given User open the api
