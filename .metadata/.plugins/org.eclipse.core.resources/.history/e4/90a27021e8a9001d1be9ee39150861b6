@@ -1,0 +1,81 @@
+package ExcelPrograms;
+
+public class StringBasicreversewithoutfunction {
+
+	public String reverseAString(String stringinput) {
+		char[] ch = stringinput.toCharArray();
+		char[] newarray = new char[ch.length];
+		for (int i = 0; i < ch.length; i++) {
+			newarray[i] = ch[ch.length - i - 1];
+		}
+		String stringoutput = new String(newarray);
+		
+		if (stringoutput.equals(stringoutput)) {
+			System.out.println("palindrome example caught");
+		}else 
+		{
+			System.out.println("hmmm this is again not a palindrome");
+		}
+		return stringoutput;
+	}
+	
+	
+	public String reverseEachWordInString (String stringinput) {
+		
+		String splitstringarray [] =  stringinput.split("\\s");
+		String finalstring = "" ;	
+		
+		for (String s : splitstringarray) {
+			
+			char[] ch = s.toCharArray();
+			char[] newarray = new char[ch.length];
+			for (int i = 0; i < ch.length; i++) {
+				newarray[i] = ch[ch.length - i - 1];
+			}
+			String stringoutput = new String(newarray);
+			
+			finalstring += stringoutput + " ";
+		}
+			
+			
+		
+		return finalstring;
+	}
+	
+	
+	public String capFirstChar (String stringinput) {
+		
+		String splitstringarray [] =  stringinput.split("\\s");
+		String finalstring = "" ;		
+		
+		for (String s : splitstringarray) {
+			
+			String first = s.substring(0,1);
+			String afterfirst = s.substring(1);
+			
+			finalstring += first.toUpperCase() + afterfirst.toLowerCase()+" "; 
+					
+		}
+		
+		return finalstring.trim();
+	}
+	
+	
+
+	public static void main(String[] args) {
+		String stringinput = "palap";
+		StringBasicreversewithoutfunction Obj = new StringBasicreversewithoutfunction();
+		
+		String result = Obj.reverseAString(stringinput);
+		System.out.println(result);
+		
+		String result1 = Obj.capFirstChar(result);
+		System.out.println(result1);
+		
+		String resutl3 =Obj.reverseEachWordInString(stringinput);
+		System.out.println(result3);
+		
+	
+
+	}
+}

@@ -1,0 +1,78 @@
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+package stepdefination;
+
+
+public class LoginSteps() {
+	
+
+
+@Given("user is on login page")
+public void user_is_on_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user gets the title of the page")
+public void user_gets_the_title_of_the_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("page title should be {string}")
+public void page_title_should_be(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("Social Sign in options should be displayed")
+public void social_sign_in_options_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("user is on Sign page")
+public void user_is_on_sign_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user enters username {string}")
+public void user_enters_username(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user enters password {string}")
+public void user_enters_password(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user clicks on Sign button")
+public void user_clicks_on_sign_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("user is on loyalty page")
+public void user_is_on_loyalty_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("user hits continue to navigate to my Account page")
+public void user_hits_continue_to_navigate_to_my_account_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("user validates sign in is successfull.")
+public void user_validates_sign_in_is_successfull() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+}

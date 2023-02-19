@@ -1,0 +1,39 @@
+package apitesting;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class FirstApi {
+
+	@Test
+	public void testResponseCode() {
+
+		Response response1 = RestAssured.get("https://reqres.in/api/users?page=2");
+
+		int respcode = response1.getStatusCode();
+
+		String body = response1.asString();
+
+		System.out.println("response code is" + respcode + "response body is " + body);
+
+		Assert.assertEquals(respcode, 400);
+
+	}
+
+public static void main(String[] args) {
+	
+
+		RestAssured.baseURI = "https://reqres.in/api/users?page=2";
+		given().
+			queryParam("page","2")
+			.body("").
+		when().
+		get("https://reqres.in/api/users?page=2").getStatusCode();
+
+		System.out.println("This is given when then for a api get");
+
+}
+}

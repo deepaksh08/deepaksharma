@@ -1,0 +1,49 @@
+package ExcelPrograms;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.sl.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelReader {
+
+	public void readFromFile(String filepath, String filename, String sheetname) throws Throwable {
+
+		// Creating an object of fileclass with full path of the file including name
+		File file = new File(filepath + "\\" + filename);
+
+		// Create an object of FileInputStream class to read excel file and pass above
+		// file to the input stream
+		 
+		FileInputStream fileinputstream = new FileInputStream(file);		
+		String extensionOfExcelFile = filename.substring(filename.indexOf("."));
+		Workbook workbook = null;
+		
+		//Check condition if the file is xlsx file or xls  and accordingly creating workbook		
+		if (extensionOfExcelFile.equals(".xls")) {
+			Workbook workbook = new HSSFWorkbook(fileinputstream);						
+		} else if (extensionOfExcelFile.equals(".xlsx")) {
+			Workbook workbook = new XSSFWorkbook(fileinputstream);
+		}
+		
+		
+		
+		
+		
+		
+	
+	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println(System.getProperty("user.dir"));
+		
+		
+	}
+
+}

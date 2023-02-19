@@ -1,0 +1,31 @@
+package ExcelPrograms;
+
+public class WritingIntoExcel {
+
+	
+	public void write(String fileLocation,String[] data) {
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		String[] data = {"Location","Shalimar"};
+		
+		String fileLocation = System.getProperty("user.dir") + "\\src\\test\\resources\\TestExcel.xlsx" ;
+		
+		
+		
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,29 @@
+package stepsdefination;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class GetApiStepDefination {
+
+	
+	@Given("User open the api")
+	public void user_open_the_api() {
+	   
+	}
+
+	@When("User hits the get user api")
+	public void user_hits_the_get_user_api() {
+	    
+	}
+
+	@Then("user valided status as {int}")
+	public void user_valided_status_as(Integer int1) {
+	    
+	}
+
+	@Then("user validated the response as something in result")
+	public void user_validated_the_response_as_something_in_result() {
+	    
+	}
+}

@@ -1,0 +1,24 @@
+package apitesting;
+
+import org.testng.Assert;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class FirstApi {
+
+	public void testResponseCode() {
+		
+		Response response1 = RestAssured.get("https://reqres.in/api/users?page=2");
+		
+		int respcode = response1.getStatusCode();
+		
+		Assert.assertEquals(respcode, 200);
+		
+		
+		
+		
+		
+	}
+	
+}

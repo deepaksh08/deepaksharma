@@ -1,0 +1,35 @@
+package ExcelPrograms;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class WritingIntoExcel {
+
+	
+	public void write(String fileLocation,String[] data) throws Throwable {
+		
+		File file = new File(fileLocation);
+		FileInputStream inputstream = new FileInputStream(file);
+	
+		
+		
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		String[] data = {"Location","Shalimar","Village"};		
+		String fileLocation = System.getProperty("user.dir") + "\\src\\test\\resources\\TestExcel.xlsx" ;
+		WritingIntoExcel obj = new WritingIntoExcel();
+		obj.write(fileLocation, data);
+		//System.out.println(data.length);
+		
+			
+	}
+	
+}

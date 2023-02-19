@@ -1,0 +1,12 @@
+package BaseTestApi;
+
+import utilities.ConfigReader;
+
+public class BaseTest {
+
+	
+	public void baseTesting() {
+		
+		System.out.println(ConfigReader.getConfig());
+	}
+}

@@ -1,0 +1,33 @@
+package ExcelPrograms;
+
+import java.io.File;
+
+public class ExcelReader1 {
+	
+	
+	public void read(String filelocation, String filename, String sheetname) {
+		
+		
+		File file = new File(filelocation);
+		
+		
+	}
+
+	
+	
+	public static void main(String[] args) {
+		
+		String fileLocation = System.getProperty("user.dir") + "\\src\\test\\resources\\" ;
+		String filename = "TestExcel.xlsx" ;
+		String sheetname = "Sheet1";
+		
+		ExcelReader1 obj = new ExcelReader1();
+		obj.read(fileLocation, filename, sheetname);
+		
+		System.out.println(fileLocation);
+		
+	}
+}
+
+
+

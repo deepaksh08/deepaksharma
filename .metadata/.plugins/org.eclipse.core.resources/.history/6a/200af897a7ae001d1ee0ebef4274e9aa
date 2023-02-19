@@ -1,0 +1,8 @@
+@APISCENARIO
+Feature: To test a get api
+
+
+@APISCENARIO
+Scenario: Get api call
+Given User open the api
+When user_valided_status_as 200

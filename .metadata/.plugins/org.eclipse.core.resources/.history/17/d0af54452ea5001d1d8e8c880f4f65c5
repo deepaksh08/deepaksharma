@@ -1,0 +1,88 @@
+package stepsdefination;
+
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+public class LoginSteps {
+	
+
+
+@Given("user is on login page")
+public void user_is_on_login_page() {
+   
+}
+
+@When("user gets the title of the page")
+public void user_gets_the_title_of_the_page() {
+    
+   }
+
+@Then("page title should be {string}")
+public void page_title_should_be(String string) {
+    
+}
+
+@Then("Social Sign in options should be displayed")
+public void social_sign_in_options_should_be_displayed() {
+    
+}
+
+@Given("user is on Sign page")
+public void user_is_on_sign_page() {
+    
+}
+
+@When("user enters username {string}")
+public void user_enters_username(String string) {
+    
+}
+
+@When("user enters password {string}")
+public void user_enters_password(String string) {
+    
+}
+
+@When("user clicks on Sign button")
+public void user_clicks_on_sign_button() {
+    
+}
+
+@Then("user is on loyalty page")
+public void user_is_on_loyalty_page() {
+    
+}
+
+@Then("user hits continue to navigate to my Account page")
+public void user_hits_continue_to_navigate_to_my_account_page() {
+    
+}
+
+@Then("user validates sign in is successfull.")
+public void user_validates_sign_in_is_successfull() {
+    
+}
+
+@Then("User validate third party login options")
+public void user_validate_third_party_login_options() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("User enters email id")
+public void user_enters_email_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("User submit the email")
+public void user_submit_the_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+
+}

@@ -1,0 +1,52 @@
+package apitesting;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.equalTo;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class FirstApi {
+
+	@Test
+	public void testResponseCode() {
+
+		Response response1 = RestAssured.get("https://reqres.in/api/users?page=2");
+
+		int respcode = response1.getStatusCode();
+
+		String body = response1.asString();
+
+		System.out.println("response code is" + respcode + "response body is " + body);
+
+		Assert.assertEquals(respcode, 200);
+
+	}
+
+
+	
+	@Test
+	public void testResp1() {
+		
+		
+		RestAssured.baseURI = "https://reqres.in/api/users?page=2";
+		given().when().get().then().assertThat().statusCode(200).body("total_pages", equalTo(2));
+		
+		String S = RestAssured.get().asString();
+		
+		System.out.println(S);
+		System.out.println(S);
+		System.out.println(S);
+		
+		
+	}
+
+	
+	
+			
+
+
+}

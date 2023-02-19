@@ -1,0 +1,13 @@
+package apitesting;
+
+import org.testng.annotations.Test;
+
+public class PostApiAutomation {
+	
+	
+	@Test
+	public void postApi() {
+		
+	}
+
+}

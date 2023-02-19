@@ -1,0 +1,27 @@
+package ExcelPrograms;
+
+public class TextFile {
+
+	
+	
+	
+	public void read(String filelocation) {
+		
+		
+	}
+	public void write(String filelocation) {
+		
+	}
+	
+	public static void main(String[] args) {
+		String filelocation = System.getProperty("user.dir")+"\\src\\test\\resources\\demotextfile.txt";
+		
+		TextFile Obj = new TextFile();
+		Obj.read(filelocation);
+		Obj.write(filelocation);
+		
+				
+		
+	}
+}
+

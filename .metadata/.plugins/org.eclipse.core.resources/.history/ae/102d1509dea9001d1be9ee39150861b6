@@ -1,0 +1,24 @@
+package ExcelPrograms;
+
+public class StringBasicreversewithoutfunction {
+
+	public String reverseAString(String stringinput) {
+		
+		char[] newarray = null;
+
+		char[] ch = stringinput.toCharArray();
+		for (int i = 0; i < ch.length; i++) {
+			newarray[i] = ch[ch.length - i - 1];
+		}
+		String stringoutput = new String(newarray);
+		return stringoutput;
+	}
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+	}
+}

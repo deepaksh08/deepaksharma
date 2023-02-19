@@ -1,0 +1,14 @@
+package BaseTestApi;
+
+import org.testng.annotations.Test;
+
+import utilities.ConfigReader;
+
+public class BaseTest {
+
+	@Test
+	public void baseTesting() {
+		
+		System.out.println(ConfigReader.configRead());
+	}
+}

@@ -1,0 +1,19 @@
+package ExcelPrograms;
+
+public class PropertyRead {
+	
+	
+	
+	public void read(String filelocation) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		PropertyRead Obj = new PropertyRead();
+		
+				
+				
+		
+	}
+}

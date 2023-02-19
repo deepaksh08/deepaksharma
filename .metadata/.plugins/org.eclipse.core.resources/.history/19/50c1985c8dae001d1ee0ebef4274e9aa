@@ -1,0 +1,60 @@
+package utilities;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
+
+public class ConfigReader {
+
+	public static Map<String, String> Config = new HashMap<String, String>();
+	public static Properties propMain = new Properties();
+
+	public static Map<String, String> getConfigurations() {
+
+		String environment = System.getProperty("env");
+
+		try {
+			if (environment.equalsIgnoreCase("dev")) {
+
+				FileInputStream fisDev = new FileInputStream(System.getProperty("user.dir") + "/inputs/dev.properties");
+				propMain.load(fisDev);
+				Config.put("ServerUrl", propMain.getProperty("ServerUrl"));
+				
+
+			} else if (environment.equalsIgnoreCase("prod")) {
+				FileInputStream fisQA = new FileInputStream(System.getProperty("user.dir") + "/inputs/qa.properties");
+				propMain.load(fisQA);
+				Config.put("ServerUrl", propMain.getProperty("ServerUrl"));
+				
+			} }
+		 catch (Exception e) {
+			// TODO: handle exception
+		}
+
+		return Config;
+
+	}
+
+	private Properties prop;
+
+	public Properties init_prop() {
+
+		prop = new Properties();
+		try {
+			FileInputStream ip = new FileInputStream("./src/test/resources/config/Config.properties");
+			prop.load(ip);
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return prop;
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package ExcelPrograms;
+
+public class PropertyRead {
+	
+	
+	
+	public void read(String filelocation) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+		String filelocation = System.getProperty("user.dir")+"\\src\\test\\resources\\propertyfile.properties";
+		PropertyRead Obj = new PropertyRead();
+		Obj.read(null);
+		System.out.println(filelocation);		
+		
+		
+	}
+}

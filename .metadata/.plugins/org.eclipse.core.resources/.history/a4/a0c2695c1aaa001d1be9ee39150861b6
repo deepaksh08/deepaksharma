@@ -1,0 +1,34 @@
+package apitesting;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+
+public class PostApiAutomation {
+	
+	
+	@Test
+	public void postApi() {
+		
+		RestAssured.baseURI = "https://reqres.in/api/users";
+		
+		String json = "{\r\n"
+				+ "    \"name\": \"morpheus\",\r\n"
+				+ "    \"job\": \"leader\"\r\n"
+				+ "}";
+//		JsonObject requestParams = new JsonObject();
+//		requestParams.addProperty("name", "Deepak");
+//		requestParams.addProperty("job", "Baba");
+		
+		RestAssured.given().body(json)
+		.when()
+		.post()
+		.then()
+		.assertThat()
+		.log()
+		.all()
+		.statusCode(201);
+			
+	}
+
+}

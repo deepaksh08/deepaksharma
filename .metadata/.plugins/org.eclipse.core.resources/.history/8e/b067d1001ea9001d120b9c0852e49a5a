@@ -1,0 +1,23 @@
+package ExcelPrograms;
+
+public class WritingIntoExcel {
+
+	
+	public void write(String fileLocation,String[] data) {
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

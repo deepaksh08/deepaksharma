@@ -1,0 +1,30 @@
+package ExcelPrograms;
+
+import java.util.Scanner;
+
+public class StringBasicreversewithoutfunction {
+
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter String to reverse");
+		String s = sc.nextLine();
+		
+		
+		char[] ch = s.toCharArray();
+		char[] newch = null;
+		for (int i = ch.length-1 ; i>=0;i--) {
+			
+			System.out.print(ch[i]);
+			newch[ch.length-i] = ch[i];
+		
+		}
+	
+		String newstr = newch.toString();
+		System.out.println("new string came out to be" + newstr);
+		
+			
+	}
+}

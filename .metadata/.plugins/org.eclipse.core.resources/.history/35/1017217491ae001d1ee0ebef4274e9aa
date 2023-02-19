@@ -1,0 +1,10 @@
+package BaseTestApi;
+
+public class BaseTest {
+
+	
+	public void baseTesting() {
+		
+		System.out.println();
+	}
+}
