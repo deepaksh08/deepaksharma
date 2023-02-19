@@ -8,11 +8,8 @@
     <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
-    <fullyQualifiedTypeName name="io.restassured.response.Response"/>
     <fullyQualifiedTypeName name="cucumber.api.cli.Main"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
-    <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
     <fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
@@ -23,7 +20,6 @@
     <fullyQualifiedTypeName name="ExcelPrograms.ExcelReader1"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
     <fullyQualifiedTypeName name="ExcelPrograms.WritingIntoExcel"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
@@ -31,4 +27,23 @@
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="AppConfigs.ApiHeaders"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="utilities.ConfigReader"/>
+    <fullyQualifiedTypeName name="BaseTestApi.BaseTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="AppConfigs.ApiPath"/>
+    <fullyQualifiedTypeName name="AppConfigs.ApiPath.apiPath"/>
+    <fullyQualifiedTypeName name="io.restassured.response.Response"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="org.json.JSONObject"/>
+    <fullyQualifiedTypeName name="org.json.JSONArray"/>
+    <fullyQualifiedTypeName name="ApiVerification.ApiVerification"/>
+    <fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
+    <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
 </qualifiedTypeNameHistroy>
