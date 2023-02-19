@@ -10,6 +10,7 @@ public class ApiVerification {
 
 	public static void responseCodeValiddation(Response response, int statusCode) {
 		Assert.assertEquals(statusCode, response.getStatusCode());
+
 		System.out.println("test");
 
 	}
