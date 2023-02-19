@@ -10,7 +10,7 @@ public class ApiVerification {
 
 	public static void responseCodeValiddation(Response response, int statusCode) {
 		Assert.assertEquals(statusCode, response.getStatusCode());
-		System.out.println("new branch commit message is different from the master branch message");
+		System.out.println("new branch commit c1");
 
 	}
 
