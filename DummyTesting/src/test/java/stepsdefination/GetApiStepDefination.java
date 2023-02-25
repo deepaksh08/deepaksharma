@@ -1,6 +1,7 @@
 package stepsdefination;
 
 import ApiVerification.ApiVerification;
+import AppConfigs.ApiHeaders;
 import AppConfigs.ApiPath;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

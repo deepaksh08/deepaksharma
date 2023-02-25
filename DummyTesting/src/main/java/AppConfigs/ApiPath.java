@@ -11,6 +11,8 @@ public   class ApiPath {
 			//POST
 			public static final String CREATE_POST="/api/users";
 			
+			public static final String SINGLE_USER="/api/users/3";
+			
 	}	
 	
 public static void main(String[] args) {

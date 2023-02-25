@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Assert;
 
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class ApiVerification {
@@ -11,18 +12,18 @@ public class ApiVerification {
 	public static void responseCodeValiddation(Response response, int statusCode) {
 		Assert.assertEquals(statusCode, response.getStatusCode());
 
-		System.out.println("master commit c2");
-
-		System.out.println("new branch commit c3");
-		
-		System.out.println("new branch commit fresh code in new1.. space removed in another pr");
-
 
 	}
 
 	public static void responseKeyValidationFromJsonObject(Response response, String key) {
 
 		JSONObject json = new JSONObject(response.getBody().asString());
+		
+		JsonPath jp = JsonPath.from(response.getBody().asString());
+		
+		System.out.println(jp.getString("data[1].email"));
+		
+		
 		Assert.assertTrue(json.has(key) && json.get(key) != null);
 
 	}

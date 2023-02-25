@@ -9,7 +9,7 @@ public class BaseTest {
 
 	public void baseTest() {
 		
-		RestAssured.baseURI = "https://reqres.in";
+		RestAssured.baseURI = ConfigReader.configRead().get("apiurl");
 		
 	}
 	
