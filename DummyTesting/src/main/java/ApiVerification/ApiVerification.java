@@ -1,5 +1,7 @@
 package ApiVerification;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Assert;
@@ -7,10 +9,16 @@ import org.junit.Assert;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
+
 public class ApiVerification {
+	
+	public static Logger log = LogManager.getLogger(ApiVerification.class);
+	
 
 	public static void responseCodeValiddation(Response response, int statusCode) {
 		Assert.assertEquals(statusCode, response.getStatusCode());
+		
+		
 
 
 	}

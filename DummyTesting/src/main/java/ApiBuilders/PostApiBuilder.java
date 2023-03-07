@@ -19,15 +19,12 @@ public class PostApiBuilder {
 	public static void main(String[] args) {
 		PostApiBuilder post = new PostApiBuilder();
 		
-		String outputJson = post.postRequestBody().replace(" ", "").replaceAll("([\\w]+):", "\"$1\":")
-                .replaceAll(":([\\w|<|=]+)", ": \"$1\"")
-                .replaceAll("\"([\\d]+)\"", "$1")
-                .replace(":}", ": \"\"}")
-                .replace(":]", ": \"\"]")
-                .replace(":,", ": \"\",");        
+		System.out.println(post.postRequestBody());
+		
+		    
 		             
 		
-		System.out.println(outputJson);
+		
 		
 	}
 	

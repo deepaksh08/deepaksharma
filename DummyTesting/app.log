@@ -1,0 +1,140 @@
+[INFO ] 2023-02-27 18:57:55.611 [main] GetApiStepDefination - this is a test log
+[ERROR] 2023-02-27 18:57:55.615 [main] GetApiStepDefination - this is error log
+[INFO ] 2023-02-27 18:59:33.533 [main] GetApiStepDefination - this is a test log
+[ERROR] 2023-02-27 18:59:33.537 [main] GetApiStepDefination - this is error log
+[INFO ] 2023-02-27 19:00:45.012 [main] GetApiStepDefination - this is a test log
+[ERROR] 2023-02-27 19:00:45.015 [main] GetApiStepDefination - this is error log
+[INFO ] 2023-02-27 19:01:51.383 [main] GetApiStepDefination - this is a test log
+[ERROR] 2023-02-27 19:01:51.386 [main] GetApiStepDefination - this is error log
+[INFO ] 2023-02-27 19:04:03.671 [main] GetApiStepDefination - this is a test log
+[ERROR] 2023-02-27 19:04:03.673 [main] GetApiStepDefination - this is error log
+[INFO ] 2023-02-27 19:12:31.785 [main] GetApiStepDefination - this is a test log
+[ERROR] 2023-02-27 19:12:31.788 [main] GetApiStepDefination - this is error log
+2023-02-27 19:57:45.205 INFO [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:35)] - this is a test log
+2023-02-27 19:57:45.209 ERROR [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:36)] - this is error log
+2023-02-27 19:57:45.209 DEBUG [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:37)] - this is a debug message
+2023-02-27 20:06:49.664 INFO [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:35)] - this is a test log
+2023-02-27 20:06:49.667 ERROR [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:36)] - this is error log
+2023-02-27 20:06:49.668 DEBUG [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:37)] - this is a debug message
+2023-02-27 20:10:56.202 INFO [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:35)] - this is a test log
+2023-02-27 20:10:56.205 ERROR [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:36)] - this is error log
+2023-02-27 20:10:56.205 DEBUG [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:37)] - this is a debug message
+2023-02-27 20:10:56.216 ERROR [main] [ApiVerification.ApiVerification.responseCodeValiddation(ApiVerification.java:25)] - exception occured in this method
+java.lang.AssertionError: expected:<300> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at org.junit.Assert.failNotEquals(Assert.java:835) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at org.junit.Assert.assertEquals(Assert.java:647) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at org.junit.Assert.assertEquals(Assert.java:633) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at ApiVerification.ApiVerification.responseCodeValiddation(ApiVerification.java:22) ~[classes/:?]
+	at stepsdefination.GetApiStepDefination.user_valided_status_as(GetApiStepDefination.java:44) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.3.4.jar:7.3.4]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.3.4.jar:7.3.4]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.3.4.jar:7.3.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.0.jar:7.7.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2023-02-27 20:14:20.730 INFO [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:35)] - this is a test log
+2023-02-27 20:14:20.733 ERROR [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:36)] - this is error log
+2023-02-27 20:14:20.734 DEBUG [main] [stepsdefination.GetApiStepDefination.user_open_the_api(GetApiStepDefination.java:37)] - this is a debug message
+2023-02-27 20:14:20.746 ERROR [main] [stepsdefination.GetApiStepDefination.user_valided_status_as(GetApiStepDefination.java:49)] - Error occured
+java.lang.AssertionError: expected:<300> but was:<200>
+	at org.junit.Assert.fail(Assert.java:89) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at org.junit.Assert.failNotEquals(Assert.java:835) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at org.junit.Assert.assertEquals(Assert.java:647) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at org.junit.Assert.assertEquals(Assert.java:633) ~[org.junit_4.13.2.v20211018-1956.jar:4.13.2]
+	at ApiVerification.ApiVerification.responseCodeValiddation(ApiVerification.java:19) ~[classes/:?]
+	at stepsdefination.GetApiStepDefination.user_valided_status_as(GetApiStepDefination.java:46) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.3.4.jar:7.3.4]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129) ~[cucumber-core-7.7.0.jar:7.7.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.3.4.jar:7.3.4]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.3.4.jar:7.3.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.0.jar:7.7.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.0.jar:7.7.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.0.jar:7.7.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.0.jar:7.7.0]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.0.jar:7.7.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
