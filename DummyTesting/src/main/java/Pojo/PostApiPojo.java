@@ -48,6 +48,7 @@ public class PostApiPojo {
 		PostApiPojo pojo = new PostApiPojo("deepak", "sharma");
 
 		System.out.println(pojo.getpojooutput(pojo));
+		System.out.println(pojo.toString());
 
 	}
 }

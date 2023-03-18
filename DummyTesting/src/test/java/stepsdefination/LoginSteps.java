@@ -24,19 +24,8 @@ public class LoginSteps {
 
 	}
 
-	@Then("User Valdiate heading")
-	public void  User_Valdiate_heading () {
-		Assert.assertTrue(loginPage.isLoginSectionHeadingPresent());
 
-	}
-
-	@Then("page title should be {string}")
-	public void page_title_should_be(String expectedTitleName) {
-		String loginTitle = loginPage.getLoginPageTitle();
-		System.out.println("Login page title is "+loginTitle);
-		Assert.assertTrue(loginTitle.contains(expectedTitleName));
-		
-	}
+	
 
 	@Then("User validate third party login options")
 	public void user_validate_third_party_login_options() {

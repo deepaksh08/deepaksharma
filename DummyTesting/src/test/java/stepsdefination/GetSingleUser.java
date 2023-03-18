@@ -27,6 +27,11 @@ public class GetSingleUser {
 		DeserialPojo DP = objectMapper.readValue(respstring, DeserialPojo.class);
 		
 		
+		System.out.println("below is DP print");
+		System.out.println(DP.getData());
+		System.out.println("support print below");
+		System.out.println(DP.getSupport().getUrl());
+		System.out.println("support print above");
 		
 	
 	  
