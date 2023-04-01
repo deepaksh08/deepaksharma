@@ -12,7 +12,7 @@ public class MergeConflict {
 		char t;
 		float f;
 		
-		System.out.println("Hello git world");
+		System.out.println("Hello ji git world");
 	}
 
 }
