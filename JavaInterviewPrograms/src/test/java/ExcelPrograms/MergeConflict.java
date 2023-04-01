@@ -15,7 +15,7 @@ public class MergeConflict {
 
 		System.out.println("Hello ji branch 1 april wala commit + master wala commit wah ji wah git world");
 		System.out.println("this is new line added in origin");
-
+		System.out.println("this is new in  1 april branch");
 	}
 
 }
