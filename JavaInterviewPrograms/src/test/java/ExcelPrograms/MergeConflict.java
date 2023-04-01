@@ -12,7 +12,9 @@ public class MergeConflict {
 		char t;
 		float f;
 		
-		System.out.println("Hello ji  master wala commmit wah ji wah git world");
+
+		System.out.println("Hello ji branch 1 april wala commit + master wala commit wah ji wah git world");
+
 	}
 
 }
