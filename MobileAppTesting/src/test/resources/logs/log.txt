@@ -1,0 +1,274 @@
+2023-03-15 23:35:10:315 [Appium] Welcome to Appium v1.22.3
+2023-03-15 23:35:10:317 [Appium] Non-default server args:
+2023-03-15 23:35:10:318 [Appium]   logFile: D:\workspace\MobileAppTesting\src\test\resources\logs\log.txt
+2023-03-15 23:35:10:319 [Appium]   localTimezone: true
+2023-03-15 23:35:10:351 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2023-03-15 23:35:10:366 [HTTP] --> GET /wd/hub/status
+2023-03-15 23:35:10:366 [HTTP] {}
+2023-03-15 23:35:10:368 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-03-15 23:35:10:369 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-03-15 23:35:10:377 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2023-03-15 23:35:10:377 [HTTP] 
+2023-03-15 23:35:11:039 [HTTP] Request idempotency key: efd28d6b-8ee0-44ce-9520-a21cdf812fed
+2023-03-15 23:35:11:059 [HTTP] --> POST /wd/hub/session
+2023-03-15 23:35:11:059 [HTTP] {"desiredCapabilities":{"appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","platformName":"Android","deviceName":"Android"},"capabilities":{"firstMatch":[{"appium:appActivity":".activity.HomeFragmentHolderActivity","appium:appPackage":"com.flipkart.android","appium:deviceName":"Android","platformName":"android"}]}}
+2023-03-15 23:35:11:060 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","platformName":"Android","deviceName":"Android"},null,{"firstMatch":[{"appium:appActivity":".activity.HomeFragmentHolderActivity","appium:appPackage":"com.flipkart.android","appium:deviceName":"Android","platformName":"android"}]}]
+2023-03-15 23:35:11:060 [BaseDriver] Event 'newSessionRequested' logged at 1678903511060 (23:35:11 GMT+0530 (India Standard Time))
+2023-03-15 23:35:11:067 [Appium] 
+2023-03-15 23:35:11:067 [Appium] ======================================================================
+2023-03-15 23:35:11:067 [Appium]   DEPRECATION WARNING:
+2023-03-15 23:35:11:067 [Appium] 
+2023-03-15 23:35:11:067 [Appium]   The 'automationName' capability was not provided in the desired 
+2023-03-15 23:35:11:068 [Appium]   capabilities for this Android session
+2023-03-15 23:35:11:068 [Appium] 
+2023-03-15 23:35:11:068 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2023-03-15 23:35:11:068 [Appium]   UiAutomator2 Driver
+2023-03-15 23:35:11:068 [Appium] 
+2023-03-15 23:35:11:068 [Appium]   The next major version of Appium (2.x) will **require** the 
+2023-03-15 23:35:11:068 [Appium]   'automationName' capability to be set for all sessions on all 
+2023-03-15 23:35:11:068 [Appium]   platforms
+2023-03-15 23:35:11:069 [Appium] 
+2023-03-15 23:35:11:069 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2023-03-15 23:35:11:069 [Appium]   'automationName=UiAutomator1'
+2023-03-15 23:35:11:069 [Appium] 
+2023-03-15 23:35:11:069 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2023-03-15 23:35:11:069 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2023-03-15 23:35:11:069 [Appium] 
+2023-03-15 23:35:11:069 [Appium]   For more information about drivers, please visit 
+2023-03-15 23:35:11:069 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2023-03-15 23:35:11:069 [Appium]   'Drivers' menu
+2023-03-15 23:35:11:070 [Appium] 
+2023-03-15 23:35:11:070 [Appium] ======================================================================
+2023-03-15 23:35:11:070 [Appium] 
+2023-03-15 23:35:11:421 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-03-15 23:35:11:423 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-03-15 23:35:11:424 [BaseDriver] Creating session with W3C capabilities: {
+2023-03-15 23:35:11:424 [BaseDriver]   "alwaysMatch": {
+2023-03-15 23:35:11:424 [BaseDriver]     "platformName": "android",
+2023-03-15 23:35:11:424 [BaseDriver]     "appium:appActivity": ".activity.HomeFragmentHolderActivity",
+2023-03-15 23:35:11:425 [BaseDriver]     "appium:appPackage": "com.flipkart.android",
+2023-03-15 23:35:11:425 [BaseDriver]     "appium:deviceName": "Android"
+2023-03-15 23:35:11:425 [BaseDriver]   },
+2023-03-15 23:35:11:425 [BaseDriver]   "firstMatch": [
+2023-03-15 23:35:11:426 [BaseDriver]     {}
+2023-03-15 23:35:11:426 [BaseDriver]   ]
+2023-03-15 23:35:11:426 [BaseDriver] }
+2023-03-15 23:35:11:433 [BaseDriver] Session created with session id: c483d083-156d-4887-ba99-f0ce49ca0349
+2023-03-15 23:35:11:435 [UiAutomator2] Starting 'com.flipkart.android' directly on the device
+2023-03-15 23:35:11:456 [ADB] Found 2 'build-tools' folders under 'C:\Users\lenovo\AppData\Local\Android\Sdk' (newest first):
+2023-03-15 23:35:11:457 [ADB]     C:/Users/lenovo/AppData/Local/Android/Sdk/build-tools/33.0.2
+2023-03-15 23:35:11:457 [ADB]     C:/Users/lenovo/AppData/Local/Android/Sdk/build-tools/30.0.3
+2023-03-15 23:35:11:459 [ADB] Using 'adb.exe' from 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-03-15 23:35:11:461 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-15 23:35:13:953 [AndroidDriver] Retrieving device list
+2023-03-15 23:35:13:954 [ADB] Trying to find a connected android device
+2023-03-15 23:35:13:954 [ADB] Getting connected devices
+2023-03-15 23:35:13:987 [ADB] No connected devices have been detected
+2023-03-15 23:35:13:987 [ADB] Could not find online devices
+2023-03-15 23:35:13:988 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:13:988 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:14:221 [ADB] Getting connected devices
+2023-03-15 23:35:14:246 [ADB] No connected devices have been detected
+2023-03-15 23:35:14:246 [ADB] Could not find online devices
+2023-03-15 23:35:14:246 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:14:246 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:14:483 [ADB] Getting connected devices
+2023-03-15 23:35:14:510 [ADB] No connected devices have been detected
+2023-03-15 23:35:14:510 [ADB] Could not find online devices
+2023-03-15 23:35:14:510 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:14:510 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:14:749 [ADB] Getting connected devices
+2023-03-15 23:35:14:773 [ADB] No connected devices have been detected
+2023-03-15 23:35:14:773 [ADB] Could not find online devices
+2023-03-15 23:35:14:773 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:14:773 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:15:011 [ADB] Getting connected devices
+2023-03-15 23:35:15:037 [ADB] No connected devices have been detected
+2023-03-15 23:35:15:037 [ADB] Could not find online devices
+2023-03-15 23:35:15:038 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:15:038 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:15:274 [ADB] Getting connected devices
+2023-03-15 23:35:15:298 [ADB] No connected devices have been detected
+2023-03-15 23:35:15:299 [ADB] Could not find online devices
+2023-03-15 23:35:15:299 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:15:299 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:15:539 [ADB] Getting connected devices
+2023-03-15 23:35:15:564 [ADB] No connected devices have been detected
+2023-03-15 23:35:15:564 [ADB] Could not find online devices
+2023-03-15 23:35:15:564 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:15:565 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:15:804 [ADB] Getting connected devices
+2023-03-15 23:35:15:831 [ADB] No connected devices have been detected
+2023-03-15 23:35:15:831 [ADB] Could not find online devices
+2023-03-15 23:35:15:831 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:15:832 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:16:067 [ADB] Getting connected devices
+2023-03-15 23:35:16:098 [ADB] No connected devices have been detected
+2023-03-15 23:35:16:098 [ADB] Could not find online devices
+2023-03-15 23:35:16:098 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:16:099 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:16:330 [ADB] Getting connected devices
+2023-03-15 23:35:16:355 [ADB] No connected devices have been detected
+2023-03-15 23:35:16:355 [ADB] Could not find online devices
+2023-03-15 23:35:16:356 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:16:356 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:16:596 [ADB] Getting connected devices
+2023-03-15 23:35:16:640 [ADB] No connected devices have been detected
+2023-03-15 23:35:16:640 [ADB] Could not find online devices
+2023-03-15 23:35:16:641 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:16:641 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:16:873 [ADB] Getting connected devices
+2023-03-15 23:35:16:897 [ADB] No connected devices have been detected
+2023-03-15 23:35:16:897 [ADB] Could not find online devices
+2023-03-15 23:35:16:897 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:16:897 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:17:138 [ADB] Getting connected devices
+2023-03-15 23:35:17:164 [ADB] No connected devices have been detected
+2023-03-15 23:35:17:164 [ADB] Could not find online devices
+2023-03-15 23:35:17:165 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:17:165 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:17:403 [ADB] Getting connected devices
+2023-03-15 23:35:17:456 [ADB] No connected devices have been detected
+2023-03-15 23:35:17:456 [ADB] Could not find online devices
+2023-03-15 23:35:17:456 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:17:457 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:17:697 [ADB] Getting connected devices
+2023-03-15 23:35:17:721 [ADB] No connected devices have been detected
+2023-03-15 23:35:17:721 [ADB] Could not find online devices
+2023-03-15 23:35:17:721 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:17:722 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:17:959 [ADB] Getting connected devices
+2023-03-15 23:35:17:983 [ADB] No connected devices have been detected
+2023-03-15 23:35:17:983 [ADB] Could not find online devices
+2023-03-15 23:35:17:983 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:17:983 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:18:223 [ADB] Getting connected devices
+2023-03-15 23:35:18:247 [ADB] No connected devices have been detected
+2023-03-15 23:35:18:247 [ADB] Could not find online devices
+2023-03-15 23:35:18:247 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:18:247 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:18:487 [ADB] Getting connected devices
+2023-03-15 23:35:18:515 [ADB] No connected devices have been detected
+2023-03-15 23:35:18:515 [ADB] Could not find online devices
+2023-03-15 23:35:18:515 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:18:516 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:18:752 [ADB] Getting connected devices
+2023-03-15 23:35:18:778 [ADB] No connected devices have been detected
+2023-03-15 23:35:18:778 [ADB] Could not find online devices
+2023-03-15 23:35:18:779 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:18:779 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:19:017 [ADB] Getting connected devices
+2023-03-15 23:35:19:064 [ADB] No connected devices have been detected
+2023-03-15 23:35:19:065 [ADB] Could not find online devices
+2023-03-15 23:35:19:065 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:19:065 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:19:297 [ADB] Getting connected devices
+2023-03-15 23:35:19:322 [ADB] No connected devices have been detected
+2023-03-15 23:35:19:322 [ADB] Could not find online devices
+2023-03-15 23:35:19:322 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:19:322 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:19:562 [ADB] Getting connected devices
+2023-03-15 23:35:19:600 [ADB] No connected devices have been detected
+2023-03-15 23:35:19:600 [ADB] Could not find online devices
+2023-03-15 23:35:19:601 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:19:601 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:19:857 [ADB] Getting connected devices
+2023-03-15 23:35:19:881 [ADB] No connected devices have been detected
+2023-03-15 23:35:19:881 [ADB] Could not find online devices
+2023-03-15 23:35:19:881 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:19:881 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:20:120 [ADB] Getting connected devices
+2023-03-15 23:35:20:145 [ADB] No connected devices have been detected
+2023-03-15 23:35:20:145 [ADB] Could not find online devices
+2023-03-15 23:35:20:146 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:20:146 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:20:383 [ADB] Getting connected devices
+2023-03-15 23:35:20:407 [ADB] No connected devices have been detected
+2023-03-15 23:35:20:407 [ADB] Could not find online devices
+2023-03-15 23:35:20:407 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:20:407 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:20:632 [ADB] Getting connected devices
+2023-03-15 23:35:20:654 [ADB] No connected devices have been detected
+2023-03-15 23:35:20:655 [ADB] Could not find online devices
+2023-03-15 23:35:20:655 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:20:655 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:20:879 [ADB] Getting connected devices
+2023-03-15 23:35:20:904 [ADB] No connected devices have been detected
+2023-03-15 23:35:20:904 [ADB] Could not find online devices
+2023-03-15 23:35:20:904 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:20:905 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:21:141 [ADB] Getting connected devices
+2023-03-15 23:35:21:176 [ADB] No connected devices have been detected
+2023-03-15 23:35:21:176 [ADB] Could not find online devices
+2023-03-15 23:35:21:176 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:21:176 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:21:407 [ADB] Getting connected devices
+2023-03-15 23:35:21:432 [ADB] No connected devices have been detected
+2023-03-15 23:35:21:432 [ADB] Could not find online devices
+2023-03-15 23:35:21:432 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:21:432 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:21:671 [ADB] Getting connected devices
+2023-03-15 23:35:21:695 [ADB] No connected devices have been detected
+2023-03-15 23:35:21:695 [ADB] Could not find online devices
+2023-03-15 23:35:21:695 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:21:695 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:21:934 [ADB] Getting connected devices
+2023-03-15 23:35:21:960 [ADB] No connected devices have been detected
+2023-03-15 23:35:21:960 [ADB] Could not find online devices
+2023-03-15 23:35:21:960 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:21:960 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:22:198 [ADB] Getting connected devices
+2023-03-15 23:35:22:221 [ADB] No connected devices have been detected
+2023-03-15 23:35:22:222 [ADB] Could not find online devices
+2023-03-15 23:35:22:222 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:22:222 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:22:449 [ADB] Getting connected devices
+2023-03-15 23:35:22:475 [ADB] No connected devices have been detected
+2023-03-15 23:35:22:475 [ADB] Could not find online devices
+2023-03-15 23:35:22:475 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:22:475 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:22:712 [ADB] Getting connected devices
+2023-03-15 23:35:22:735 [ADB] No connected devices have been detected
+2023-03-15 23:35:22:736 [ADB] Could not find online devices
+2023-03-15 23:35:22:736 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:22:736 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:22:975 [ADB] Getting connected devices
+2023-03-15 23:35:22:998 [ADB] No connected devices have been detected
+2023-03-15 23:35:22:999 [ADB] Could not find online devices
+2023-03-15 23:35:22:999 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:22:999 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:23:238 [ADB] Getting connected devices
+2023-03-15 23:35:23:263 [ADB] No connected devices have been detected
+2023-03-15 23:35:23:264 [ADB] Could not find online devices
+2023-03-15 23:35:23:264 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:23:264 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:23:499 [ADB] Getting connected devices
+2023-03-15 23:35:23:528 [ADB] No connected devices have been detected
+2023-03-15 23:35:23:529 [ADB] Could not find online devices
+2023-03-15 23:35:23:529 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:23:529 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:23:763 [ADB] Getting connected devices
+2023-03-15 23:35:23:790 [ADB] No connected devices have been detected
+2023-03-15 23:35:23:790 [ADB] Could not find online devices
+2023-03-15 23:35:23:791 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:23:791 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:24:027 [ADB] Getting connected devices
+2023-03-15 23:35:24:056 [ADB] No connected devices have been detected
+2023-03-15 23:35:24:056 [ADB] Could not find online devices
+2023-03-15 23:35:24:056 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:24:056 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:24:292 [ADB] Getting connected devices
+2023-03-15 23:35:24:316 [ADB] No connected devices have been detected
+2023-03-15 23:35:24:316 [ADB] Could not find online devices
+2023-03-15 23:35:24:316 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:24:316 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:24:558 [ADB] Getting connected devices
+2023-03-15 23:35:24:587 [ADB] No connected devices have been detected
+2023-03-15 23:35:24:587 [ADB] Could not find online devices
+2023-03-15 23:35:24:588 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:24:588 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2023-03-15 23:35:24:823 [ADB] Getting connected devices
+2023-03-15 23:35:24:850 [ADB] No connected devices have been detected
+2023-03-15 23:35:24:850 [ADB] Could not find online devices
+2023-03-15 23:35:24:851 [ADB] Reconnecting adb (target offline)
+2023-03-15 23:35:24:851 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'

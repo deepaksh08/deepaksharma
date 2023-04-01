@@ -1,0 +1,217 @@
+2023-03-09 16:17:13:531 [Appium] Welcome to Appium v1.22.3
+2023-03-09 16:17:13:532 [Appium] Non-default server args:
+2023-03-09 16:17:13:532 [Appium]   logFile: D:\workspace\MobileAppTesting\src\tests\resources\logs\log.txt
+2023-03-09 16:17:13:532 [Appium]   localTimezone: true
+2023-03-09 16:17:13:552 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2023-03-09 16:17:13:830 [HTTP] --> GET /wd/hub/status
+2023-03-09 16:17:13:831 [HTTP] {}
+2023-03-09 16:17:13:832 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2023-03-09 16:17:13:833 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2023-03-09 16:17:13:838 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2023-03-09 16:17:13:838 [HTTP] 
+2023-03-09 16:17:14:303 [HTTP] Request idempotency key: e9b0a98c-0bdd-43f2-b11d-418948269704
+2023-03-09 16:17:14:313 [HTTP] --> POST /wd/hub/session
+2023-03-09 16:17:14:314 [HTTP] {"desiredCapabilities":{"appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","platformName":"Android","deviceName":"Android"},"capabilities":{"firstMatch":[{"appium:appActivity":".activity.HomeFragmentHolderActivity","appium:appPackage":"com.flipkart.android","appium:deviceName":"Android","platformName":"android"}]}}
+2023-03-09 16:17:14:314 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","platformName":"Android","deviceName":"Android"},null,{"firstMatch":[{"appium:appActivity":".activity.HomeFragmentHolderActivity","appium:appPackage":"com.flipkart.android","appium:deviceName":"Android","platformName":"android"}]}]
+2023-03-09 16:17:14:315 [BaseDriver] Event 'newSessionRequested' logged at 1678358834314 (16:17:14 GMT+0530 (India Standard Time))
+2023-03-09 16:17:14:319 [Appium] 
+2023-03-09 16:17:14:319 [Appium] ======================================================================
+2023-03-09 16:17:14:319 [Appium]   DEPRECATION WARNING:
+2023-03-09 16:17:14:319 [Appium] 
+2023-03-09 16:17:14:319 [Appium]   The 'automationName' capability was not provided in the desired 
+2023-03-09 16:17:14:320 [Appium]   capabilities for this Android session
+2023-03-09 16:17:14:320 [Appium] 
+2023-03-09 16:17:14:320 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2023-03-09 16:17:14:320 [Appium]   UiAutomator2 Driver
+2023-03-09 16:17:14:320 [Appium] 
+2023-03-09 16:17:14:320 [Appium]   The next major version of Appium (2.x) will **require** the 
+2023-03-09 16:17:14:320 [Appium]   'automationName' capability to be set for all sessions on all 
+2023-03-09 16:17:14:320 [Appium]   platforms
+2023-03-09 16:17:14:320 [Appium] 
+2023-03-09 16:17:14:320 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2023-03-09 16:17:14:320 [Appium]   'automationName=UiAutomator1'
+2023-03-09 16:17:14:320 [Appium] 
+2023-03-09 16:17:14:321 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2023-03-09 16:17:14:321 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2023-03-09 16:17:14:321 [Appium] 
+2023-03-09 16:17:14:321 [Appium]   For more information about drivers, please visit 
+2023-03-09 16:17:14:321 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2023-03-09 16:17:14:321 [Appium]   'Drivers' menu
+2023-03-09 16:17:14:321 [Appium] 
+2023-03-09 16:17:14:321 [Appium] ======================================================================
+2023-03-09 16:17:14:321 [Appium] 
+2023-03-09 16:17:14:507 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2023-03-09 16:17:14:509 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2023-03-09 16:17:14:510 [BaseDriver] Creating session with W3C capabilities: {
+2023-03-09 16:17:14:510 [BaseDriver]   "alwaysMatch": {
+2023-03-09 16:17:14:510 [BaseDriver]     "platformName": "android",
+2023-03-09 16:17:14:510 [BaseDriver]     "appium:appActivity": ".activity.HomeFragmentHolderActivity",
+2023-03-09 16:17:14:510 [BaseDriver]     "appium:appPackage": "com.flipkart.android",
+2023-03-09 16:17:14:510 [BaseDriver]     "appium:deviceName": "Android"
+2023-03-09 16:17:14:510 [BaseDriver]   },
+2023-03-09 16:17:14:510 [BaseDriver]   "firstMatch": [
+2023-03-09 16:17:14:511 [BaseDriver]     {}
+2023-03-09 16:17:14:511 [BaseDriver]   ]
+2023-03-09 16:17:14:511 [BaseDriver] }
+2023-03-09 16:17:14:517 [BaseDriver] Session created with session id: ac16f8ce-294d-4410-a834-336a145b9374
+2023-03-09 16:17:14:517 [UiAutomator2] Starting 'com.flipkart.android' directly on the device
+2023-03-09 16:17:14:535 [ADB] Found 2 'build-tools' folders under 'C:\Users\lenovo\AppData\Local\Android\Sdk' (newest first):
+2023-03-09 16:17:14:535 [ADB]     C:/Users/lenovo/AppData/Local/Android/Sdk/build-tools/33.0.2
+2023-03-09 16:17:14:536 [ADB]     C:/Users/lenovo/AppData/Local/Android/Sdk/build-tools/30.0.3
+2023-03-09 16:17:14:536 [ADB] Using 'adb.exe' from 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-03-09 16:17:14:537 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-09 16:17:14:560 [AndroidDriver] Retrieving device list
+2023-03-09 16:17:14:560 [ADB] Trying to find a connected android device
+2023-03-09 16:17:14:561 [ADB] Getting connected devices
+2023-03-09 16:17:14:586 [ADB] Connected devices: [{"udid":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp","state":"device"}]
+2023-03-09 16:17:14:587 [AndroidDriver] Using device: adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp
+2023-03-09 16:17:14:588 [ADB] Using 'adb.exe' from 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2023-03-09 16:17:14:588 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2023-03-09 16:17:14:614 [ADB] Setting device id to adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp
+2023-03-09 16:17:14:614 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell getprop ro.build.version.sdk'
+2023-03-09 16:17:14:764 [ADB] Current device property 'ro.build.version.sdk': 31
+2023-03-09 16:17:14:764 [ADB] Getting device platform version
+2023-03-09 16:17:14:765 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell getprop ro.build.version.release'
+2023-03-09 16:17:14:838 [ADB] Current device property 'ro.build.version.release': 12
+2023-03-09 16:17:14:838 [ADB] Device API level: 31
+2023-03-09 16:17:14:838 [UiAutomator2] Relaxing hidden api policy
+2023-03-09 16:17:14:838 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2023-03-09 16:17:15:156 [AndroidDriver] No app sent in, not parsing package/activity
+2023-03-09 16:17:15:157 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp wait-for-device'
+2023-03-09 16:17:15:186 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell echo ping'
+2023-03-09 16:17:15:350 [AndroidDriver] Pushing settings apk to device...
+2023-03-09 16:17:15:351 [ADB] Getting install status for io.appium.settings
+2023-03-09 16:17:15:351 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys package io.appium.settings'
+2023-03-09 16:17:15:561 [ADB] 'io.appium.settings' is installed
+2023-03-09 16:17:15:561 [ADB] Getting package info for 'io.appium.settings'
+2023-03-09 16:17:15:561 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys package io.appium.settings'
+2023-03-09 16:17:15:722 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2023-03-09 16:17:15:722 [ADB] There is no need to install/upgrade 'C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2023-03-09 16:17:15:722 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-09 16:17:15:722 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell 'pgrep --help; echo $?''
+2023-03-09 16:17:15:822 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-03-09 16:17:15:963 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2023-03-09 16:17:15:963 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell appops set io.appium.settings android:mock_location allow'
+2023-03-09 16:17:16:074 [Logcat] Starting logs capture with command: C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp logcat -v threadtime
+2023-03-09 16:17:16:272 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2023-03-09 16:17:16:273 [ADB] Forwarding system: 8200 to device: 6790
+2023-03-09 16:17:16:273 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp forward tcp:8200 tcp:6790'
+2023-03-09 16:17:16:485 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-03-09 16:17:16:486 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys package io.appium.uiautomator2.server'
+2023-03-09 16:17:16:645 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-03-09 16:17:16:645 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-03-09 16:17:16:645 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys package io.appium.uiautomator2.server'
+2023-03-09 16:17:17:625 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2023-03-09 16:17:17:626 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-03-09 16:17:17:626 [ADB] Checking app cert for C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk
+2023-03-09 16:17:17:645 [ADB] Using 'apksigner.jar' from 'C:\Users\lenovo\AppData\Local\Android\Sdk\build-tools\33.0.2\lib\apksigner.jar'
+2023-03-09 16:17:17:646 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-11\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.27.0.apk'
+2023-03-09 16:17:18:265 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-09 16:17:18:265 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-09 16:17:18:265 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-09 16:17:18:265 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-09 16:17:18:266 [ADB] 
+2023-03-09 16:17:18:266 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2023-03-09 16:17:18:266 [ADB] 'C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2023-03-09 16:17:18:267 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-03-09 16:17:18:267 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys package io.appium.uiautomator2.server.test'
+2023-03-09 16:17:18:540 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-03-09 16:17:18:540 [ADB] Checking app cert for C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2023-03-09 16:17:18:552 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk-11\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\lenovo\\AppData\\Local\\Android\\Sdk\\build-tools\\33.0.2\\lib\\apksigner.jar verify --print-certs 'C:\\Users\\lenovo\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-09 16:17:18:905 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-09 16:17:18:905 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-09 16:17:18:905 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-09 16:17:18:905 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-09 16:17:18:905 [ADB] 
+2023-03-09 16:17:18:906 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-09 16:17:18:906 [ADB] 'C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-03-09 16:17:18:906 [UiAutomator2] Server packages are not going to be (re)installed
+2023-03-09 16:17:18:908 [UiAutomator2] Waiting up to 30000ms for services to be available
+2023-03-09 16:17:18:909 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell pm list instrumentation'
+2023-03-09 16:17:19:353 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-03-09 16:17:19:355 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2023-03-09 16:17:19:355 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2023-03-09 16:17:19:355 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2023-03-09 16:17:20:031 [UiAutomator2] No app capability. Assuming it is already on the device
+2023-03-09 16:17:20:031 [ADB] Getting install status for com.flipkart.android
+2023-03-09 16:17:20:032 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys package com.flipkart.android'
+2023-03-09 16:17:20:343 [ADB] 'com.flipkart.android' is installed
+2023-03-09 16:17:20:343 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell am force-stop com.flipkart.android'
+2023-03-09 16:17:20:926 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell pm clear com.flipkart.android'
+2023-03-09 16:17:21:577 [AndroidDriver] Performed fast reset on the installed 'com.flipkart.android' application (stop and clear)
+2023-03-09 16:17:21:577 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2023-03-09 16:17:22:096 [UiAutomator2] No obsolete sessions have been detected (timeout of 500ms exceeded)
+2023-03-09 16:17:22:097 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell am force-stop io.appium.uiautomator2.server.test'
+2023-03-09 16:17:22:518 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2023-03-09 16:17:22:518 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\lenovo\AppData\Local\Programs\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-09 16:17:22:519 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-03-09 16:17:22:519 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-03-09 16:17:22:529 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-09 16:17:22:530 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-03-09 16:17:22:652 [WD Proxy] socket hang up
+2023-03-09 16:17:23:360 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-03-09 16:17:23:664 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-09 16:17:23:665 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-03-09 16:17:24:081 [WD Proxy] socket hang up
+2023-03-09 16:17:25:092 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-03-09 16:17:25:093 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2023-03-09 16:17:25:358 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-03-09 16:17:25:358 [UiAutomator2] The initialization of the instrumentation process took 2840ms
+2023-03-09 16:17:25:359 [WD Proxy] Matched '/session' to command name 'createSession'
+2023-03-09 16:17:25:359 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","deviceName":"Android"},"platformName":"android","appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","deviceName":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp","deviceUDID":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp"}],"alwaysMatch":{}}}
+2023-03-09 16:17:25:914 [WD Proxy] Got response with status 200: {"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","deviceName":"Android"},"platformName":"android","appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","deviceName":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp","deviceUDID":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp"}],"alwaysMatch":{}},"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6"}}
+2023-03-09 16:17:25:915 [WD Proxy] Determined the downstream protocol as 'W3C'
+2023-03-09 16:17:25:925 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/28494ce5-98dc-494e-bd1c-8b9b097b26f6/appium/device/info] with no body
+2023-03-09 16:17:26:341 [WD Proxy] Got response with status 200: {"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6","value":{"androidId":"ab906ab889c6d4c6","apiVersion":"31","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"JIO 4G","displayDensity":450,"locale":"en_IN","manufacturer":"samsung","model":"SM-M336BU","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":11470,"linkUpstreamBandwidthKbps":2147483647,"networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30672,"linkUpstreamBandwidthKbps":19997,"networkCapabilities":"NET_CAPAB...
+2023-03-09 16:17:26:341 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell dumpsys window'
+2023-03-09 16:17:26:852 [AndroidDriver] Screen already unlocked, doing nothing
+2023-03-09 16:17:26:853 [UiAutomator2] Starting 'com.flipkart.android/.activity.HomeFragmentHolderActivity and waiting for 'com.flipkart.android/.activity.HomeFragmentHolderActivity'
+2023-03-09 16:17:26:853 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell am start -W -n com.flipkart.android/.activity.HomeFragmentHolderActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-09 16:17:30:518 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/28494ce5-98dc-494e-bd1c-8b9b097b26f6/appium/device/pixel_ratio] with no body
+2023-03-09 16:17:31:127 [WD Proxy] Got response with status 200: {"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6","value":2.8125}
+2023-03-09 16:17:31:129 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2023-03-09 16:17:31:130 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/28494ce5-98dc-494e-bd1c-8b9b097b26f6/appium/device/system_bars] with no body
+2023-03-09 16:17:31:805 [WD Proxy] Got response with status 200: {"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6","value":{"statusBar":68}}
+2023-03-09 16:17:31:806 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2023-03-09 16:17:31:806 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/28494ce5-98dc-494e-bd1c-8b9b097b26f6/window/current/size] with no body
+2023-03-09 16:17:32:798 [WD Proxy] Got response with status 200: {"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6","value":{"height":2207,"width":1080}}
+2023-03-09 16:17:32:800 [Appium] New AndroidUiautomator2Driver session created successfully, session ac16f8ce-294d-4410-a834-336a145b9374 added to master session list
+2023-03-09 16:17:32:802 [BaseDriver] Event 'newSessionStarted' logged at 1678358852802 (16:17:32 GMT+0530 (India Standard Time))
+2023-03-09 16:17:32:803 [W3C (ac16f8ce)] Cached the protocol value 'W3C' for the new session ac16f8ce-294d-4410-a834-336a145b9374
+2023-03-09 16:17:32:803 [W3C (ac16f8ce)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","deviceName":"Android"},"platformName":"android","appActivity":".activity.HomeFragmentHolderActivity","appPackage":"com.flipkart.android","deviceName":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp","deviceUDID":"adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp","deviceApiLevel":31,"platformVersion":"12","deviceScreenSize":"1080x2408","deviceScreenDensity":450,"deviceModel":"SM-M336BU","deviceManufacturer":"samsung","pixelRatio":2.8125,"statBarHeight":68,"viewportRect":{"left":0,"top":68,"width":1080,"height":2139}}}
+2023-03-09 16:17:32:807 [HTTP] <-- POST /wd/hub/session 200 18492 ms - 914
+2023-03-09 16:17:32:807 [HTTP] 
+2023-03-09 16:17:32:891 [HTTP] --> POST /wd/hub/session/ac16f8ce-294d-4410-a834-336a145b9374/timeouts
+2023-03-09 16:17:32:891 [HTTP] {"implicit":10000}
+2023-03-09 16:17:32:894 [W3C (ac16f8ce)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"ac16f8ce-294d-4410-a834-336a145b9374"]
+2023-03-09 16:17:32:895 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2023-03-09 16:17:32:895 [BaseDriver] Set implicit wait to 10000ms
+2023-03-09 16:17:32:896 [W3C (ac16f8ce)] Responding to client with driver.timeouts() result: null
+2023-03-09 16:17:32:897 [HTTP] <-- POST /wd/hub/session/ac16f8ce-294d-4410-a834-336a145b9374/timeouts 200 5 ms - 14
+2023-03-09 16:17:32:897 [HTTP] 
+2023-03-09 16:17:42:902 [HTTP] --> DELETE /wd/hub/session/ac16f8ce-294d-4410-a834-336a145b9374
+2023-03-09 16:17:42:902 [HTTP] {}
+2023-03-09 16:17:42:903 [W3C (ac16f8ce)] Calling AppiumDriver.deleteSession() with args: ["ac16f8ce-294d-4410-a834-336a145b9374"]
+2023-03-09 16:17:42:903 [BaseDriver] Event 'quitSessionRequested' logged at 1678358862903 (16:17:42 GMT+0530 (India Standard Time))
+2023-03-09 16:17:42:903 [Appium] Removing session ac16f8ce-294d-4410-a834-336a145b9374 from our master session list
+2023-03-09 16:17:42:904 [UiAutomator2] Deleting UiAutomator2 session
+2023-03-09 16:17:42:904 [UiAutomator2] Deleting UiAutomator2 server session
+2023-03-09 16:17:42:905 [WD Proxy] Matched '/' to command name 'deleteSession'
+2023-03-09 16:17:42:905 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/28494ce5-98dc-494e-bd1c-8b9b097b26f6] with no body
+2023-03-09 16:17:42:955 [WD Proxy] Got response with status 200: {"sessionId":"28494ce5-98dc-494e-bd1c-8b9b097b26f6","value":null}
+2023-03-09 16:17:42:955 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell am force-stop com.flipkart.android'
+2023-03-09 16:17:43:159 [Logcat] Stopping logcat capture
+2023-03-09 16:17:43:164 [ADB] Removing forwarded port socket connection: 8200 
+2023-03-09 16:17:43:164 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp forward --remove tcp:8200'
+2023-03-09 16:17:43:187 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2023-03-09 16:17:43:187 [ADB] Running 'C:\Users\lenovo\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s adb-RZCT919MNHT-DXXUmz._adb-tls-connect._tcp shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2023-03-09 16:17:43:573 [Instrumentation] .
+2023-03-09 16:17:43:578 [Instrumentation] Time: 20.075
+2023-03-09 16:17:43:578 [Instrumentation] 
+2023-03-09 16:17:43:578 [Instrumentation] OK (1 test)
+2023-03-09 16:17:43:579 [BaseDriver] Event 'quitSessionFinished' logged at 1678358863579 (16:17:43 GMT+0530 (India Standard Time))
+2023-03-09 16:17:43:579 [W3C (ac16f8ce)] Received response: null
+2023-03-09 16:17:43:579 [W3C (ac16f8ce)] But deleting session, so not returning
+2023-03-09 16:17:43:579 [W3C (ac16f8ce)] Responding to client with driver.deleteSession() result: null
+2023-03-09 16:17:43:581 [HTTP] <-- DELETE /wd/hub/session/ac16f8ce-294d-4410-a834-336a145b9374 200 678 ms - 14
+2023-03-09 16:17:43:581 [HTTP] 
