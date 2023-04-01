@@ -83,7 +83,7 @@ public class Hooks  {
 //		System.out.println("@after hook is closing the browser - Sanity Specific");
 //	}
 		
-	@Before
+//	@Before 
 	public void setUp() {
 		System.out.println("@before hook is setting up browser");
 		hook.setDriver();

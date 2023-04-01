@@ -21,7 +21,7 @@ public class LoginSteps   {
 	@Given("user navigates to the website")
 	public void user_navigates_to_the_website() {
 		System.out.println("@Given--user navigates to the website");
-		driver.get("https://www.bedbathandbeyond.com/store/cart");
+//		driver.get("https://www.bedbathandbeyond.com/store/cart");
 	}
 
 	@When("user validates the home page")

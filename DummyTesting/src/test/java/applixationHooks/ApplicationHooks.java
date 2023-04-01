@@ -44,6 +44,7 @@ public class ApplicationHooks {
 			scenario.attach(sourcePath, "image/png", screenshotName);
 
 		}
+//		driver.quit();
 	}
 
 	
