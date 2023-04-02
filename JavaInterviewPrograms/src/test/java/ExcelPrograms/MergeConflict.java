@@ -16,6 +16,8 @@ public class MergeConflict {
 
 		System.out.println("only line left with the main branch");
         System.out.println("This is the only line added in 1april branch");
+        
+        System.out.println("this is the line which will be reverted");
 
 		
 
