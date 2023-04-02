@@ -18,7 +18,7 @@ public class MergeConflict {
         System.out.println("This is the only line added in 1april branch");
 
         System.out.println("this is the line which will be reverted which is now corrected as per the specification");
-
+        System.out.println("new branch wala change");
 
 		
 
