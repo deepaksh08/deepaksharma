@@ -13,30 +13,30 @@ import io.cucumber.java.Before;
 
 
 public class Hooks  {
-	
-	 WebDriver driver;
-	 Hooks hook;
+//	
+//	 WebDriver driver;
+//	 Hooks hook;
 //	Base base;
 //	
 //	public Hooks(Base base) {
 //		this.base = base;
 //	}
 //	
-	 public Hooks(){
-		    driver = new ChromeDriver();;
-		  }
-	 
-	 public WebDriver setDriver() {
-		 
-		 if (driver == null){
-		      driver = new ChromeDriver();
-		      return driver;
-		    }else{
-		      return driver;
-		    }
-			
-	 }
-			
+//	 public Hooks(){
+//		    driver = new ChromeDriver();;
+//		  }
+//	 
+//	 public WebDriver setDriver() {
+//		 
+//		 if (driver == null){
+//		      driver = new ChromeDriver();
+//		      return driver;
+//		    }else{
+//		      return driver;
+//		    }
+//			
+//	 }
+//			
 	
 //	@BeforeAll
 //	public static void beforeAll() {
@@ -84,21 +84,21 @@ public class Hooks  {
 //	}
 		
 //	@Before 
-	public void setUp() {
-		System.out.println("@before hook is setting up browser");
-		hook.setDriver();
-		
-		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-				  .withTimeout(Duration.ofSeconds(30))
-				  .pollingEvery(Duration.ofSeconds(5))
-	              .withMessage("Time out as the condition is not met")
-				  .ignoring(NoSuchElementException.class);
-		
+//	public void setUp() {
+//		System.out.println("@before hook is setting up browser");
+//		hook.setDriver();
+//		
+//		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+//				  .withTimeout(Duration.ofSeconds(30))
+//				  .pollingEvery(Duration.ofSeconds(5))
+//	              .withMessage("Time out as the condition is not met")
+//				  .ignoring(NoSuchElementException.class);
+//		
 	}
 		
-	@After
-	public void teadDown() {
-		System.out.println("@afterhook is closing the browser");
+//	@After
+//	public void teadDown() {
+//		System.out.println("@afterhook is closing the browser");
 //		base.getDriver().quit();
-	}
-}
+//	}
+//}

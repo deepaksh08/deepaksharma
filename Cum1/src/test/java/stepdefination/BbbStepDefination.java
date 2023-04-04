@@ -19,7 +19,7 @@ public class BbbStepDefination {
 	
 	
 		Hooks hook = new Hooks();
-		WebDriver driver = hook.setDriver();
+//		WebDriver driver = hook.setDriver();
 	
 
 	@And("user Search for {string} on site")

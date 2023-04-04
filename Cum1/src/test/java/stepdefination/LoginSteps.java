@@ -15,8 +15,8 @@ public class LoginSteps   {
 //		this.base = base;
 //	}
 //	
-	Hooks hook = new Hooks();
-	WebDriver driver = hook.setDriver();
+//	Hooks hook = new Hooks();
+//	WebDriver driver = hook.setDriver();
 	
 	@Given("user navigates to the website")
 	public void user_navigates_to_the_website() {
@@ -26,7 +26,7 @@ public class LoginSteps   {
 
 	@When("user validates the home page")
 	public void user_validates_the_home_page() {
-		
+		System.out.println("user validated home page");
 	}
 
 	@Then("user enters {string} username")
