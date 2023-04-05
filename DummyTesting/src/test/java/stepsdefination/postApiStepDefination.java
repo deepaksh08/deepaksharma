@@ -36,6 +36,9 @@ public class postApiStepDefination  {
 				.when().post(ApiPath.apiPath.CREATE_POST);
 		
 		response.then().log().all();	
+		
+		
+		
 	}
 
 }
