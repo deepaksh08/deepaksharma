@@ -1,9 +1,9 @@
 package com.w2a.utilities;
 
 import java.util.Properties;
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
-import javax.activation.FileDataSource;
+//import javax.activation.DataHandler;
+//import javax.activation.DataSource;
+//import javax.activation.FileDataSource;
 import javax.mail.Authenticator;
 import javax.mail.BodyPart;
 import javax.mail.Message;
@@ -21,7 +21,7 @@ public class MonitoringMail {
 	// public static void sendMail(String mailServer, String from,String username,
 	// String password,String port, String[] to, String subject, String messageBody,
 	// String attachmentPath, String attachmentName) throws MessagingException,
-	// AddressException
+	// AddressException 
 	public void sendMail(String mailServer, String from, String[] to, String subject, String messageBody)
 			throws MessagingException, AddressException {
 		boolean debug = false;
