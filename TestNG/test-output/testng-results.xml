@@ -1,274 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="3" failed="2" skipped="2">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-03T23:32:50 IST" name="Suite1" finished-at="2023-04-03T23:32:51 IST" duration-ms="1226">
+  <suite started-at="2023-04-21T10:36:16 IST" name="Default suite" finished-at="2023-04-21T10:36:17 IST" duration-ms="224">
     <groups>
-      <group name="Sanity">
-        <method signature="TestCase1.doUserRegistration()[pri:1, instance:TestCases.TestCase1@548a24a]" name="doUserRegistration" class="TestCases.TestCase1"/>
-        <method signature="TestCase2.validateTitle()[pri:1, instance:TestCases.TestCase2@6e2829c7]" name="validateTitle" class="TestCases.TestCase2"/>
-        <method signature="TestCase2.validateHeading()[pri:2, instance:TestCases.TestCase2@6e2829c7]" name="validateHeading" class="TestCases.TestCase2"/>
-        <method signature="TestCase2.testLogin()[pri:3, instance:TestCases.TestCase2@6e2829c7]" name="testLogin" class="TestCases.TestCase2"/>
-      </group> <!-- Sanity -->
     </groups>
-    <test started-at="2023-04-03T23:32:50 IST" name="Test1" finished-at="2023-04-03T23:32:51 IST" duration-ms="1060">
-      <class name="TestCases.TestCase1">
-        <test-method is-config="true" signature="dbConnection()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:50 IST" name="dbConnection" finished-at="2023-04-03T23:32:50 IST" duration-ms="1" status="PASS">
+    <test started-at="2023-04-21T10:36:16 IST" name="Default test" finished-at="2023-04-21T10:36:17 IST" duration-ms="224">
+      <class name="TestCases.TestCase3">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCases.TestCase3@1e04fa0a]" started-at="2023-04-21T10:36:16 IST" name="beforeClass" finished-at="2023-04-21T10:36:16 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dbConnection -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:50 IST" name="initBrowser" finished-at="2023-04-03T23:32:50 IST" duration-ms="61" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testing1()[pri:0, instance:TestCases.TestCase3@1e04fa0a]" started-at="2023-04-21T10:36:16 IST" name="testing1" finished-at="2023-04-21T10:36:16 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="doUserRegistration()[pri:1, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:50 IST" name="doUserRegistration" finished-at="2023-04-03T23:32:50 IST" duration-ms="34" status="PASS">
+        </test-method> <!-- testing1 -->
+        <test-method signature="testing2()[pri:0, instance:TestCases.TestCase3@1e04fa0a]" started-at="2023-04-21T10:36:16 IST" name="testing2" finished-at="2023-04-21T10:36:16 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doUserRegistration -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:50 IST" name="teadDown" finished-at="2023-04-03T23:32:50 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testing2 -->
+        <test-method signature="testing3()[pri:0, instance:TestCases.TestCase3@1e04fa0a]" started-at="2023-04-21T10:36:17 IST" name="testing3" finished-at="2023-04-21T10:36:17 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teadDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="initBrowser" finished-at="2023-04-03T23:32:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="doLogin" finished-at="2023-04-03T23:32:51 IST" duration-ms="55" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [false] but found [true],
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [false] but found [true],
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at TestCases.TestCase1.doLogin(TestCase1.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="teadDown" finished-at="2023-04-03T23:32:51 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="initBrowser" finished-at="2023-04-03T23:32:51 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="doBasicTest()[pri:3, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="doBasicTest" finished-at="2023-04-03T23:32:51 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doBasicTest -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="teadDown" finished-at="2023-04-03T23:32:51 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-        <test-method is-config="true" signature="closeConnection()[pri:0, instance:TestCases.TestCase1@548a24a]" started-at="2023-04-03T23:32:51 IST" name="closeConnection" finished-at="2023-04-03T23:32:51 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeConnection -->
-      </class> <!-- TestCases.TestCase1 -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-04-03T23:32:51 IST" name="Test2" finished-at="2023-04-03T23:32:51 IST" duration-ms="75">
-      <class name="TestCases.TestCase2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:50 IST" name="setUp" finished-at="2023-04-03T23:32:50 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="dbConnection()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="dbConnection" finished-at="2023-04-03T23:32:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dbConnection -->
-        <test-method signature="validateTitle()[pri:1, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="validateTitle" finished-at="2023-04-03T23:32:51 IST" duration-ms="6" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[failing test case]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: failing test case
-at org.testng.Assert.fail(Assert.java:110)
-at TestCases.TestCase2.validateTitle(TestCase2.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="initBrowser" finished-at="2023-04-03T23:32:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="teadDown" finished-at="2023-04-03T23:32:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-        <test-method signature="validateHeading()[pri:2, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="validateHeading" finished-at="2023-04-03T23:32:51 IST" depends-on-methods="TestCases.TestCase2.validateTitle" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method TestCases.TestCase2.validateHeading() on instance TestCases.TestCase2@6e2829c7 depends on not successfully finished methods 
-[TestCases.TestCase2.validateTitle() on instance TestCases.TestCase2@6e2829c7]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCases.TestCase2.validateHeading() on instance TestCases.TestCase2@6e2829c7 depends on not successfully finished methods 
-[TestCases.TestCase2.validateTitle() on instance TestCases.TestCase2@6e2829c7]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHeading -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="initBrowser" finished-at="2023-04-03T23:32:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="testLogin()[pri:3, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="testLogin" finished-at="2023-04-03T23:32:51 IST" depends-on-methods="TestCases.TestCase2.validateTitle" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="teadDown" finished-at="2023-04-03T23:32:51 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="initBrowser" finished-at="2023-04-03T23:32:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method signature="skipTest()[pri:4, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="skipTest" finished-at="2023-04-03T23:32:51 IST" duration-ms="2" status="SKIP">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[this is skipped forcefully ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: this is skipped forcefully 
-at TestCases.TestCase2.skipTest(TestCase2.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- skipTest -->
-        <test-method is-config="true" signature="teadDown()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="teadDown" finished-at="2023-04-03T23:32:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teadDown -->
-        <test-method is-config="true" signature="closeConnection()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="closeConnection" finished-at="2023-04-03T23:32:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeConnection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase2@6e2829c7]" started-at="2023-04-03T23:32:51 IST" name="tearDown" finished-at="2023-04-03T23:32:51 IST" duration-ms="34" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TestCase2 -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- testing3 -->
+      </class> <!-- TestCases.TestCase3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -14,29 +14,33 @@ public class ConfigReader {
 	public static Properties propMain = new Properties();
 
 	public static Map<String, String> configRead() {
+		
+		
+		
+		
 
 		String environment = System.getProperty("env");
 
 		try {
 			if (environment.equalsIgnoreCase("dev")) {
-				
-				File file = new File(System.getProperty("user.dir") + "/src/test/resources/config/dev.properties");
 
+				File file = new File(System.getProperty("user.dir") + "/src/test/resources/config/dev.properties");
 				FileInputStream inputstream = new FileInputStream(file);
 				propMain.load(inputstream);
-				
 				Config.put("browser", propMain.getProperty("browser"));
 				Config.put("siteurl", propMain.getProperty("siteurl"));
 				Config.put("apiurl", propMain.getProperty("apiurl"));
 
 			} else if (environment.equalsIgnoreCase("prod")) {
-				FileInputStream fisQA = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/config/prod.properties");
+				File file = new File(System.getProperty("user.dir") + "/src/test/resources/config/prod.properties");
+				FileInputStream fisQA = new FileInputStream(file);
 				propMain.load(fisQA);
 				Config.put("browser", propMain.getProperty("browser"));
 				Config.put("siteurl", propMain.getProperty("siteurl"));
 				Config.put("apiurl", propMain.getProperty("apiurl"));
 
-			}
+			} 
+			
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
@@ -74,8 +78,5 @@ public class ConfigReader {
 //
 //	}
 //	
-
-	
-	
 
 }

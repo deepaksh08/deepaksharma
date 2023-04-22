@@ -7,22 +7,22 @@ import org.testng.ITestResult;
 public class BasicITestlistner implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
-		System.out.println("TEST STARTED here..................." + result.getName() + result.getTestClass());
+		System.out.println("TEST START LISTENER..................." + result.getName() + result.getTestClass());
 
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		System.out.println("TEST PASS here....................." + result.getName());
+		System.out.println("TEST SUCCESS LISTENER....................." + result.getName());
 
 	}
 
 	public void onTestFailure(ITestResult result) {
-		System.out.println("TEST FAILURE here.................."  + result.getName());
+		System.out.println("TEST FAILURE LISTENER.................."  + result.getName());
 
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		System.out.println("TEST SKIPPED here........................" + result.getName());
+		System.out.println("TEST SKIPPED LISTENER........................" + result.getName());
 
 	}
 

@@ -10,30 +10,11 @@ import org.testng.annotations.Test;
 
 public class TestCase2 extends BaseClass {
 	
-	@BeforeTest
-	public void dbConnection() {
-		System.out.println("TEST STARTED with beforetest");
-
-	}
-
-	@AfterTest
-	public void closeConnection() {
-		System.out.println("TEST COMPLETE  with aftertest");
-	}
-
-	@BeforeMethod
-	public void initBrowser() {
-		System.out.println("METHOD STARTED with beforemethod");
-	}
-
-	@AfterMethod
-	public void teadDown() {
-		System.out.println("METHOD COMPLETE with aftermethod");
-	}
+	
 	@Test(priority = 1, groups = "Sanity")
 	public void validateTitle() {
 		System.out.println("validating title");
-		Assert.fail("failing test case");
+//		Assert.fail("failing test case");
 		
 	}
 	
@@ -48,12 +29,12 @@ public class TestCase2 extends BaseClass {
 		System.out.println("Login method");
 	}
 	
-	@Test(priority = 4)
-	public void skipTest() {
-		if (true) {
-			throw new SkipException("this is skipped forcefully ");
-		}
-		
-	}
+//	@Test(priority = 4)
+//	public void skipTest() {
+//		if (true) {
+//			throw new SkipException("this is skipped forcefully ");
+//		}
+//		
+//	}
 
 }

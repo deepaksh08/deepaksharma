@@ -5,8 +5,7 @@
 	<listener class-name="listener.BasicITestlistner"></listener>	
 	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 	</listeners>
-	
-		<test name="Test1">
+	<test name="Test1">
 		<classes>
 			<class name="TestCases.TestCase1" />
 		</classes>

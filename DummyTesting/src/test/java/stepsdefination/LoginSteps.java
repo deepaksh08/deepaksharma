@@ -1,7 +1,6 @@
 package stepsdefination;
 
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 
 import factory.DriverFactory;
 import io.cucumber.java.en.Given;
@@ -24,9 +23,6 @@ public class LoginSteps {
 
 	}
 
-
-	
-
 	@Then("User validate third party login options")
 	public void user_validate_third_party_login_options() {
 		loginPage.isAppleLoginButtonPresent();
@@ -46,6 +42,21 @@ public class LoginSteps {
 		loginPage.hitsubmitEmailId();
 
 	}
+
+	@Then("User wait for sometime")
+	public void user_wait_for_sometime() {
+		
+		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		};
+		
+		
+	}
+	
 	
 
 }

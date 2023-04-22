@@ -1,14 +1,22 @@
 package pages;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 
 	private WebDriver driver;
+	
+	
 
 	private By textinputemailid = By.id("signin-email");
-	private By buttonloginemailsubmit = By.id("signin-email-submit");
+	private By buttonloginemailsubmit = By.xpath("//button[@data-locator='signin-page-email-login-button']");
 	private By headingloginpageform = By.xpath("//*[contains(text(),'sign in or create')]");
 	private By buttonapplelogin = By.id("appleid-signin-btn");
 	private By buttongooglelogin = By.id("google-signin-btn");
@@ -21,6 +29,42 @@ public class LoginPage {
 
 	public String getLoginPageTitle() {
 		return driver.getTitle();
+	}
+
+	public boolean isContinueButtonAvailableonLoginPage() {
+		
+		Alert alert = new Alert() {
+			
+			@Override
+			public void sendKeys(String keysToSend) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public String getText() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			@Override
+			public void dismiss() {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void accept() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+
+		
+		alert.accept();
+
+		return driver.findElement(buttonloginemailsubmit).isDisplayed();
+
 	}
 
 	public boolean isLoginSectionHeadingPresent() {
@@ -46,6 +90,7 @@ public class LoginPage {
 	public void hitsubmitEmailId() {
 		driver.findElement(buttonloginemailsubmit).click();
 	}
+
 	public void hitSignInOption() {
 		driver.findElement(linkSignIn).click();
 	}

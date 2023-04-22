@@ -36,6 +36,8 @@ public class MonitoringMail {
 		props.put("mail.smtp.port", "465");
 		props.put("mail.smtp.socketFactory.port", "465");
 		props.put("mail.smtp.user", from);
+		
+		
 
 //	     props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");   
 //	     props.setProperty("mail.smtp.socketFactory.fallback", "false");   

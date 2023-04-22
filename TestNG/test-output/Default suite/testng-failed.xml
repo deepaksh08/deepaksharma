@@ -7,8 +7,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="dbConnection"/>
           <include name="closeConnection"/>
+          <include name="dbConnection"/>
           <include name="initBrowser"/>
           <include name="teadDown"/>
           <include name="doLogin"/>

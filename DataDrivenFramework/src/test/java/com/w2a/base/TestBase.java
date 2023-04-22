@@ -176,6 +176,7 @@ public class TestBase {
 		
 		Select select = new Select(dropdown);
 		select.selectByVisibleText(value);
+		
 
 		CustomListeners.testReport.get().log(Status.INFO, "Selecting from dropdown : " + locator + " value as " + value);
 

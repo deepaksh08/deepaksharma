@@ -27,15 +27,20 @@ public class postApiStepDefination  {
 
 	@Given("User open the post api")
 	public void user_open_the_post_api() throws JsonProcessingException {
+		
 		RestAssured.baseURI = ConfigReader.configRead().get("apiurl");
 		
 		
 	
 		Response response = RestAssured.given().when().headers(header.defaultHeaders()).body(PostApiPojo.getpojooutput(pojo))
 				
-				.when().post(ApiPath.apiPath.CREATE_POST);
+				.post(ApiPath.apiPath.CREATE_POST);
 		
 		response.then().log().all();	
+		
+		
+		
+		
 		
 		
 		
