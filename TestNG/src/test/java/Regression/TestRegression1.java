@@ -15,7 +15,7 @@ public class TestRegression1 extends BaseClass {
 
 	@Test(priority = 1)
 	public void doregression1test2() {
-		System.out.println("hello this is Second test regression1");
+		System.out.println("hello try this is Second test regression1");
 	}
 
 }
